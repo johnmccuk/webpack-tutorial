@@ -15,8 +15,7 @@ var config = {
                 warnings: false
             },
             sourceMap: true
-        }),
-        new extractTextPlugin("[name].css")
+        })
     ],
     module: {
         loaders: [
